@@ -1,0 +1,39 @@
+/*  CSE 154 Homework 4: Fifteen Puzzle
+    Anastasia Erofeeva
+    04/27/2017
+    Section: AH
+    TA: Melissa Medsker
+    This is a CSS file for the "Fifteen Puzzle" page */
+
+body {
+    font-family: cursive;
+    font-size: 14pt;
+    text-align: center;
+}
+
+#puzzlearea {
+    height: 400px;
+    margin: auto;
+    position: relative;
+    width: 400px;
+    
+}
+
+.square {
+    background-image: url("background.jpg");
+    border: 5px solid black;
+    box-sizing: border-box;
+    cursor: default;
+    font-size: 40pt;
+    height: 100px;
+    position: absolute;
+    width: 100px;
+}
+
+.movable:hover {
+    border-color: red;
+    color: red;
+    cursor: pointer;
+}
+
+

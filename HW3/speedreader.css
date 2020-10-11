@@ -1,0 +1,70 @@
+/*  CSE 154 Homework 3: Speedreader
+    Anastasia Erofeeva
+    04/21/2017
+    Section: AH
+    TA: Melissa Medsker
+    This is a CSS file for speed reading website */
+
+body {
+    background-color: #EAF6F6;
+    font-family: Garamond, serif;
+    font-size: 12pt;
+}
+
+#readarea {
+    border: 2px solid #8EBEBE;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 36pt;
+    font-weight: bold;
+    height: 100px;
+    line-height: 100px;
+    margin: auto;
+    width: 80%;
+}
+
+div, h1, #readarea {
+    text-align: center;
+}
+
+legend {
+    border-bottom: 1px solid #8EBEBE;
+    font-weight: bold;
+    padding: 2px;
+    text-align: left;
+    width: 100%;
+}
+
+fieldset {
+    border: none;
+    display: inline;
+    vertical-align: top;
+}
+
+button {
+    width: 70px;
+}
+
+button:disabled {
+    background-color: lightgray;
+}
+
+button, #readarea, textarea {
+    background-color: #FFFFFF;
+}
+
+button, textarea {
+   border: 1px solid gray; 
+}
+
+#validation {
+    bottom: 5px;
+    left: 0;
+    position: absolute;
+}
+
+#validation img {
+    width: 70px;
+}
+
+

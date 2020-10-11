@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <!--
+	CSE 154 Homework 3: Speedreader
+	Anastasia Erofeeva
+    04/21/2017
+    Section: AH
+    TA: Melissa Medsker
+    This is an HTML file for a speed reading website.
+	-->
+    <head>
+        <title>SpeedReader</title>
+        <link type="text/css" href="speedreader.css" rel="stylesheet" />
+        <script src="speedreader.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h1>SpeedReader</h1>
+        <div id="readarea"></div>
+        
+        <div>
+            <fieldset>
+                <legend>Play Controls:</legend>
+                <button id="start" type="button">Start</button>
+                <button id="stop" type="button" disabled>Stop</button>
+            </fieldset>
+            <fieldset>
+                <legend>Speed:</legend>
+                <select id="speed">
+                    <option value="1200">50 wpm</option>
+                    <option value="200">300 wpm</option>
+                    <option value="171" selected>350 wmp</option>
+                    <option value="150">400 wpm</option>
+                    <option value="133">450 wpm</option>
+                    <option value="120">500 wpm</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Size:</legend>
+                <input type="radio" value="medium" name="size" checked="checked"> Medium
+                <input type="radio" value="big" name="size"> Big
+                <input type="radio" value="bigger" name="size"> Bigger
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Input Text</legend>
+                <textarea rows="10" cols="80"></textarea>
+            </fieldset>
+        </div>
+        
+        <div id="validation">
+			<a href="https://webster.cs.washington.edu/validate-html.php">
+			    <img src="https://webster.cs.washington.edu/images/w3c-html-blue.png" 
+			    alt="Valid HTML5" /></a>
+			<a href="https://webster.cs.washington.edu/validate-css.php">
+			    <img src="https://webster.cs.washington.edu/images/w3c-css-blue.png" 
+			    alt="Valid CSS" /></a>
+			<a href="https://webster.cs.washington.edu/jslint/?referer">
+			    <img src="https://webster.cs.washington.edu/images/w3c-js-blue.png" 
+			    alt="Valid JavaScript" /></a>
+		</div>
+        
+    </body>
+</html>
