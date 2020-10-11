@@ -1,0 +1,50 @@
+/*  Anastasia Erofeeva
+    04/01/2017
+    CSE 154
+    Section: AH
+    TA: Melissa Medsker
+    Homework Assignment 1: Recipe
+    This is a css file of a web page for a recipe of lemon meringue pie.  */
+
+body {
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+}
+
+h1, h2 {
+    background-color: #F0F0F0;
+    color: #A4A400;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    font-size: 22pt;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 18pt;
+    font-weight: normal;
+    text-align: left;
+}
+
+abbr {
+    text-decoration: underline;
+}
+
+ins {
+    text-decoration: none;
+}
+
+blockquote {
+    background-color: #FFFFA8;
+    font-style: italic;
+}
+
+a {
+   color: #A4A400; 
+}
+
+ pre {
+     text-align: left;
+ }
